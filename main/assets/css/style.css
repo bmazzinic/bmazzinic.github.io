@@ -617,7 +617,10 @@ section .container {
   margin-top: 20px;
   position: relative;
 }
-
+.swiper-slide img {
+    max-width: 100%; /* Ensures the image does not exceed the container width */
+    height: auto;    /* Maintains the image aspect ratio */
+}
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
